@@ -1,0 +1,915 @@
+<resources>
+    <string name="app_name">EspelApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="result_succeeded"/>
+    <string name="result_failed" />
+    <string name="result_failed_why" />
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+    <string name="about">App diseñada por Gonzalo Albán y Andrea Bassante</string>
+    <string name="action_about">About</string>
+    <string name="website">espe.com</string>
+    <string name="github">GitHub: github.com</string>
+    <string name="drawer_header_image">drawer header image</string>
+    <string name="manage_account">Manage Accounts</string>
+    <string name="add_account">Add  account</string>
+    <string name="name">EspelApp</string>
+    <string name="email">1.0</string>
+    <string name="help"><![CDATA[Help & feedbaack]]></string>
+    <string name="title_activity_menu_drawer">MenuDrawerActivity</string>
+    <string name="title_activity_ciencias_exactas">CienciasExactasActivity</string>
+    <string name="title_activity_electrica_electronica">ElectricaElectronicaActivity</string>
+    <string name="title_activity_card_view">CardViewActivity</string>
+    <string name="title_activity_prueba">PruebaActivity</string>
+    <string name="title_activity_recycler_view">RecyclerViewActivity</string>
+    <string name="title_activity_editar_departamento">EditarDepartamentoActivity</string>
+    <string name="title_activity_laboratorio_ciencias1">LaboratorioCiencias1Activity</string>
+    <string name="title_activity_departamentos">DepartamentosActivity</string>
+    <string name="title_activity_laboratorio_ciencias2">LaboratorioCiencias2Activity</string>
+    <string name="title_activity_laboratorio_ciencias3">LaboratorioCiencias3Activity</string>
+    <string name="title_activity_busqueda">BusquedaActivity</string>
+    <string name="title_activity_sitios">SitiosActivity</string>
+    <string name="title_activity_test_localizacion">TestLocalizacionActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+    <string-array name="lugares">
+        <item>Información</item>
+        <item>Med-9</item>
+        <item>Marketing</item>
+        <item>Hall de distribución</item>
+        <item>Admisión y registro</item>
+        <item>Dr. Rodrigo Vaca</item>
+        <item>Sala de profesores</item>
+        <item>Baños m.</item>
+        <item>Baños h.</item>
+        <item>UTIC´s</item>
+        <item>Subdirección</item>
+        <item>Mayor Chamorro</item>
+        <item>Bienestar politécnico</item>
+        <item>Dra. Consuelo Acurio</item>
+        <item>Departamento de ciencias de la energía y mecánica</item>
+        <item>Ing. Abril Garces Ernesto Manuel</item>
+        <item>Ing. Acuña Coello Fausto Vinicio</item>
+        <item>Ing. Arteaga López Óscar Bladimir</item>
+        <item>Ing. Beltrán Reina Roberto Félix</item>
+        <item>Ing. Bonilla Jiménez William Moisés</item>
+        <item>Ing. Carvajal Naranjo Miguel Alberto</item>
+        <item>Ing. Castro Clavijo Juan Trajano</item>
+        <item>Ing. Correa Jacome Juan Francisco</item>
+        <item>Ing. Cruz Arcos Guillermo Mauricio</item>
+        <item>Ing. Erazo Laverde Washington German</item>
+        <item>Ing. Hallo Carrasco Vicente David</item>
+        <item>Ing. Iza Tobar Henry Heriberto</item>
+        <item>Ing. Jacome Heredia Oswaldo Jorge</item>
+        <item>Ing. Lara Nuñez Mario Alcides</item>
+        <item>Ing. Manjarres Arias Félix Javier</item>
+        <item>Ing. Mena Mena Euro Rodrigo</item>
+        <item>Ing. Mena Navarrete Luis Antonio</item>
+        <item>Ing. Mena Palacios Jorge Stalin</item>
+        <item>Ing. Meythaler Naranjo Jorge Eduardo</item>
+        <item>Ing. Morales Villegas Hernán Vinicio</item>
+        <item>Ing. Quiroz Erazo José Lizandro</item>
+        <item>Ing. Quiroz Erazo Leonidas Antonio</item>
+        <item>Ing. Rocha Hoyos Juan Carlos</item>
+        <item>Dr.  Rodríguez Maecker Roman Nicolay</item>
+        <item>Ing. Romero Guano Néstor Aníbal</item>
+        <item>Ing. Salazar Corrales Marcelo Fabián</item>
+        <item>Ing. Santillan  Mariño Ernesto Ramiro</item>
+        <item>Ing. Singaña Amaguaña Marco Adolfo</item>
+        <item>Ing. Terán Herrera Héctor Cochise</item>
+        <item>Ing. Torres Muñoz Guido Rafael</item>
+        <item>Ing. Urrutia Goyes Edgar Ricardo</item>
+        <item>Ing. Zambrano León Víctor Danilo</item>
+        <item>Salón de los marqueses</item>
+        <item>Cocina del salón de los marqueses</item>
+        <item>Bodega de suministros</item>
+        <item>Baños primer piso</item>
+        <item>Parque norte</item>
+        <item>Bodega</item>
+        <item>Oficina primer piso</item>
+        <item>Laboratorio de mecánica de patio</item>
+        <item>Unidad financiera</item>
+        <item>Departamento de ciencias exactas</item>
+        <item>Ing. Acurio López Marco Eduardo</item>
+        <item>Ing. Barreno Layedra Norma del Pilar</item>
+        <item>Ing. Basantes  Moreano Luis Fredy</item>
+        <item>Ing. Bastidas Gavilanes Jonny Rodolfo</item>
+        <item>Ing. Bautista Naranjo Víctor Rubén</item>
+        <item>Ing. Benavides Gutiérrez Henry Roberto</item>
+        <item>Ing. Bourgeat Terán León Augusto</item>
+        <item>Ing. Castellanos Caizalitin Martha Cecilia</item>
+        <item>Ing. Collantes Vasconez Iván Bladimir</item>
+        <item>Ing. Delgado Montenegro Ibeth de los Ángeles</item>
+        <item>Ing. Espinoza Moya Juan de Dios</item>
+        <item>Ing. Fernández Zambrano Ramiro Trajano</item>
+        <item>Ing. Galarza Barrionuevo Omar Vinicio</item>
+        <item>Ing. Jami Banda Diego Mauricio</item>
+        <item>Ing. Mayo López Tarquino Anine</item>
+        <item>Ing. Morales Ortiz Marcia Jimena</item>
+        <item>Ing. Moreno Mora María Verónica</item>
+        <item>Ing. Olovache Morales César Alberto</item>
+        <item>Ing. Orbea Hinojosa Carlos Fabián</item>
+        <item>Ing. Portero Mininguano Hernán Octavio</item>
+        <item>Dra. Pozo Jara Elsa Jacqueline</item>
+        <item>Ing. Proaño Molina Diego Orlando</item>
+        <item>Ing. Reyes Bedoya Wilson Patricio</item>
+        <item>Dr. Roman Vargas Wilson Marcelo</item>
+        <item>Ing. Sánchez Mosquera Jorge Raúl</item>
+        <item>Ing. Segovia Chávez Janeth Paulina</item>
+        <item>Ing. Tirado Gallo Inés Georgina</item>
+        <item>Ing. Torres Lascano Carlos Miguel</item>
+        <item>Ing. Travez Pillo Wilson Oswaldo</item>
+        <item>Ing. Trujillo Sánchez Sergio Fabricio</item>
+        <item>Ing. Urquizo Vaca Santiago Rafael</item>
+        <item>Dr.  Villa Zumba Miguel Ángel</item>
+        <item>Departamento de lenguas</item>
+        <item>Lcdo. Alban Bautista Alfredo Homero</item>
+        <item>Dr. Bravo Bastidas Manuel Francisco</item>
+        <item>Lcda. Carrillo Vargas Carmita Marcela</item>
+        <item>Lcda. Cerda Solís Gina Maricruz</item>
+        <item>Ing. González Ruiz Luis Patricio</item>
+        <item>Lcda. Montenegro Valdiviezo Verónica Elisabeth</item>
+        <item>Lcdo. Moscoso Jurado David Estuardo</item>
+        <item>Lcda. Pila López Rubela Janeth</item>
+        <item>Dr. Proaño Rodríguez Carlos Enrique</item>
+        <item>Lcdo. Rubio Mera Carlos Augusto</item>
+        <item>Lcda. Tigla Iglecias Jessica Alejandra</item>
+        <item>Lcda. Toalombo Capuz María Magdalena</item>
+        <item>Lcda. Villagran Vergara Fanny Rosario</item>
+        <item>Departamento de eléctrica y electrónica</item>
+        <item>Ing. Acosta Nuñez Julio Francisco</item>
+        <item>Ing. Alvarez Salazar Armando Fabián</item>
+        <item>Ing. Alvarez Veintimilla Rolando Marcelo</item>
+        <item>Dr.  Andaluz Ortiz Víctor Hugo</item>
+        <item>Ing. Arias Almeida Gloria Ivone</item>
+        <item>Ing. Ávila Rosero Galo Raúl</item>
+        <item>Ing. Bedon Salazar Edison Patricio</item>
+        <item>Ing. Bucheli Andrade José Gioberty</item>
+        <item>Ing. Cajas Barba Raúl Patricio</item>
+        <item>Ing. Carrillo Medina José Luis</item>
+        <item>Ing. Corral Díaz María Alexandra</item>
+        <item>Ing. Erazo Rodas Mayra Johanna</item>
+        <item>Ing. Escobar Anchaguano Ivon Patricia</item>
+        <item>Ing. Escobar Sánchez Milton Eduardo</item>
+        <item>Dr.  Espinosa Gallardo Edison Gonzalo</item>
+        <item>Ing. Espinel Mena Gonzalo Patricio</item>
+        <item>Ing. Freire Llerena Washington Rodrigo</item>
+        <item>Ing. Galarza Zambrano Eddy Egberto</item>
+        <item>Ing. Garces Guayta Lucas Rogerio</item>
+        <item>Ing. Granizo López Rosa Angélica</item>
+        <item>Ing. Guerra Cruz Luis Alberto</item>
+        <item>Ing. Iturralde Alban Javier Hernán</item>
+        <item>Ing. Jacho Guanoluisa Nancy del Pilar</item>
+        <item>Ing. Jacome Guerrero Patricio Santiago</item>
+        <item>Ing. Jiménez León Mario Polibio</item>
+        <item>Ing. López Chico Ximena del Rocío</item>
+        <item>Ing. Lucio Castro Miguel Ángel</item>
+        <item>Ing. Mena Lasluisa Pablo Orlando</item>
+        <item>Ing. Mena Mena Luis Enrique</item>
+        <item>Ing. Meythaler Naranjo Amparo de las Mercedes</item>
+        <item>Ing. Montaluisa Yugla Franklin Javier</item>
+        <item>Ing. Montes León Sergio Raúl</item>
+        <item>Ing. Naranjo Hidalgo César Alfredo</item>
+        <item>Ing. Navas Moya Milton Patricio</item>
+        <item>Ing. Pazmiño Jiménez Eutimio Misael</item>
+        <item>Ing. Pérez Gutiérrez Milton Fabricio</item>
+        <item>Ing. Pilatasig Panchi Marco Antonio</item>
+        <item>Ing. Pruna Panchi Edwin Patricio</item>
+        <item>Ing. Reinoso Villamarin Sixto Rafael</item>
+        <item>Ing. Rivas Lalaleo David Raimundo</item>
+        <item>Ing. Salazar Paredes Freddy William</item>
+        <item>Ing. Sánchez Ocaña Wilson Edmundo</item>
+        <item>Ing. Silva Monteros Carlos Marcelo</item>
+        <item>Ing. Silva Monteros Franklin Manuel</item>
+        <item>Ing. Torres Vasquez Katya Mercedes</item>
+        <item>Ing. Uquillas Santamaría Pablo Fernando</item>
+        <item>Archivo general</item>
+        <item>Activos fijos</item>
+        <item>Cámara de transferencia 1</item>
+        <item>Parque sur</item>
+        <item>Laboratorio industrial</item>
+        <item>Patio de uso múltiple</item>
+        <item>Gimnasio</item>
+        <item>Bar ESPE-L</item>
+        <item>Peluquería</item>
+        <item>Sastrería</item>
+        <item>Cámara de transferencia 2</item>
+        <item>Laboratorio de alto voltaje</item>
+        <item>Laboratorio de química</item>
+        <item>Laboratorio de motores y rectificación</item>
+        <item>Laboratorio de suelda</item>
+        <item>Laboratorio de refrigeración</item>
+        <item>Laboratorio de grupos electrógenos</item>
+        <item>Laboratorio de hidráulica</item>
+        <item>Laboratorio de robótica</item>
+        <item>Centro de producción</item>
+        <item>Biblioteca</item>
+        <item>Policlínico</item>
+        <item>Estacionamiento</item>
+        <item>Canchas de vóley</item>
+        <item>Cancha de futbol</item>
+        <item>Acceso norte</item>
+        <item>Auditorio héroes del cenepa</item>
+        <item>Bodega de construcciones</item>
+        <item>Bodega de instrumento musicales</item>
+        <item>Audiovisuales</item>
+        <item>Graderío estadio</item>
+        <item>Aula C-101</item>
+        <item>Aula C-102</item>
+        <item>Aula C-103</item>
+        <item>Aula C-104</item>
+        <item>Aula C-105</item>
+        <item>Aula C-106</item>
+        <item>Aula C-107</item>
+        <item>Aula C-108</item>
+        <item>Aula C-109</item>
+        <item>Aula C-110</item>
+        <item>Cuarto de control</item>
+        <item>Escuela de conducción</item>
+        <item>Oficina de la unidad TIC´s</item>
+        <item>Ing. Tatiana Mayorga</item>
+        <item>Aula A-101</item>
+        <item>Aula A-102</item>
+        <item>Aula A-103</item>
+        <item>Aula A-104</item>
+        <item>Aula A-105</item>
+        <item>Aula A-106</item>
+        <item>Laboratorios de mecánica automotriz</item>
+        <item>Copiadora</item>
+        <item>Oficina mantenimiento y construcciones</item>
+        <item>Laboratorio ingles primer piso</item>
+        <item>Estacionamiento director</item>
+        <item>Estacionamiento sub-director</item>
+        <item>Laboratorio ingles segundo piso</item>
+        <item>Dirección</item>
+        <item>Tcrn. Freddy Jativa</item>
+        <item>Aula  A-201</item>
+        <item>Aula  A-202</item>
+        <item>Aula  A-203</item>
+        <item>Aula  A-204</item>
+        <item>Aula  A-206</item>
+        <item>Aula  A-207</item>
+        <item>Aula  A-208</item>
+        <item>Aula  C-201</item>
+        <item>Aula  C-202</item>
+        <item>Aula  C-203</item>
+        <item>Aula  C-204</item>
+        <item>Aula  C-205</item>
+        <item>Aula  C-206</item>
+        <item>Aula  C-207</item>
+        <item>Aula  C-208</item>
+        <item>Aula  C-209</item>
+        <item>Aula  C-210</item>
+        <item>Aula  C-211</item>
+        <item>Baños segundo piso</item>
+        <item>Laboratorio maquinas eléctricas</item>
+        <item>Laboratorio hidronica y neutrónica</item>
+        <item>Laboratorio control eléctrico</item>
+        <item>Laboratorio adicionamientos eléctricos</item>
+        <item>Laboratorio electrónica</item>
+        <item>Laboratorio circuitos eléctricos</item>
+        <item>Laboratorio robótica</item>
+        <item>Laboratorio sistemas digitales</item>
+        <item>Aula A-301</item>
+        <item>Aula A-302</item>
+        <item>Aula A-303</item>
+        <item>Aula A-304</item>
+        <item>Aula A-305</item>
+        <item>Aula A-306</item>
+        <item>Aula A-307</item>
+        <item>Aula A-308</item>
+        <item>Aula C-301</item>
+        <item>Aula C-302</item>
+        <item>Aula C-303</item>
+        <item>Aula C-304</item>
+        <item>Aula C-305</item>
+        <item>Aula C-306</item>
+        <item>Aula C-307</item>
+        <item>Aula C-308</item>
+        <item>Aula C-309</item>
+        <item>Aula C-310</item>
+        <item>Aula C-311</item>
+        <item>Baños tercer piso</item>
+        <item>Aula B-309</item>
+        <item>Aula B-310</item>
+        <item>Aula B-311</item>
+        <item>Aula B-312</item>
+        <item>Aula B-313</item>
+        <item>Laboratorio de física</item>
+        <item>Laboratorio de sistemas operativos II</item>
+        <item>Laboratorio de lenguajes de programación</item>
+        <item>Laboratorio de redes de datos</item>
+        <item>Laboratorio de computación I</item>
+        <item>Laboratorio de computación II</item>
+        <item>Laboratorio de ingeniería de software</item>
+        <item>Baños cuarto piso</item>
+        <item>Laboratorio de herramientas administrativas</item>
+        <item>Laboratorio de sistemas operativos</item>
+        <item>Laboratorio de inteligencia artificial</item>
+        <item>Laboratorio de computación III</item>
+        <item>Laboratorio de instalaciones eléctricas</item>
+        <item>Laboratorio de mecatrónica básica</item>
+        <item>Laboratorio de ingles</item>
+        <item>Oficina laboratorios de sistemas</item>
+        <item>Area técnica</item>
+        <item>Jefatura de investigación</item>
+        <item>Aula C-410</item>
+        <item>Aula C-409</item>
+        <item>Aula C-408</item>
+        <item>Aula C-405</item>
+        <item>Oficina Cuarto Piso I</item>
+        <item>Oficina Cuarto Piso II</item>
+        <item>Oficina Cuarto Piso III</item>
+        <item>Oficina Cuarto Piso IV</item>
+    </string-array>
+
+    <string-array name="posX">
+        <item>477</item>
+        <item>625</item>
+        <item>463</item>
+        <item>771</item>
+        <item>774</item>
+        <item>774</item>
+        <item>925</item>
+        <item>710</item>
+        <item>829</item>
+        <item>1058</item>
+        <item>1321</item>
+        <item>1321</item>
+        <item>1457</item>
+        <item>1457</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1375</item>
+        <item>1387</item>
+        <item>1222</item>
+        <item>1063</item>
+        <item>918</item>
+        <item>1042</item>
+        <item>1645</item>
+        <item>1645</item>
+        <item>2158</item>
+        <item>1334</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1447</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1448</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1376</item>
+        <item>1444</item>
+        <item>1100</item>
+        <item>903</item>
+        <item>960</item>
+        <item>1946</item>
+        <item>1970</item>
+        <item>2444</item>
+        <item>2967</item>
+        <item>3395</item>
+        <item>3467</item>
+        <item>3542</item>
+        <item>3995</item>
+        <item>3993</item>
+        <item>4355</item>
+        <item>4676</item>
+        <item>4469</item>
+        <item>4618</item>
+        <item>4729</item>
+        <item>4866</item>
+        <item>5645</item>
+        <item>5421</item>
+        <item>5523</item>
+        <item>3504</item>
+        <item>4483</item>
+        <item>4505</item>
+        <item>3451</item>
+        <item>2668</item>
+        <item>3175</item>
+        <item>3167</item>
+        <item>3162</item>
+        <item>3249</item>
+        <item>2977</item>
+        <item>3074</item>
+        <item>3175</item>
+        <item>3375</item>
+        <item>3508</item>
+        <item>3641</item>
+        <item>3607</item>
+        <item>3419</item>
+        <item>3221</item>
+        <item>3031</item>
+        <item>3266</item>
+        <item>3445</item>
+        <item>2719</item>
+        <item>2719</item>
+        <item>2802</item>
+        <item>2669</item>
+        <item>2524</item>
+        <item>2351</item>
+        <item>2351</item>
+        <item>2524</item>
+        <item>2485</item>
+        <item>2787</item>
+        <item>3276</item>
+        <item>3213</item>
+        <item>3410</item>
+        <item>3410</item>
+        <item>2348</item>
+        <item>608</item>
+        <item>608</item>
+        <item>2799</item>
+        <item>2665</item>
+        <item>2520</item>
+        <item>2355</item>
+        <item>2520</item>
+        <item>2665</item>
+        <item>2799</item>
+        <item>2975</item>
+        <item>3073</item>
+        <item>3168</item>
+        <item>3266</item>
+        <item>3375</item>
+        <item>3507</item>
+        <item>3625</item>
+        <item>3614</item>
+        <item>3413</item>
+        <item>3224</item>
+        <item>3027</item>
+        <item>2983</item>
+        <item>2805</item>
+        <item>2675</item>
+        <item>2533</item>
+        <item>2361</item>
+        <item>2353</item>
+        <item>2527</item>
+        <item>2682</item>
+        <item>2803</item>
+        <item>2802</item>
+        <item>2664</item>
+        <item>2523</item>
+        <item>2357</item>
+        <item>2357</item>
+        <item>2523</item>
+        <item>2664</item>
+        <item>2802</item>
+        <item>2977</item>
+        <item>3072</item>
+        <item>3169</item>
+        <item>3264</item>
+        <item>3374</item>
+        <item>3508</item>
+        <item>3633</item>
+        <item>3622</item>
+        <item>3417</item>
+        <item>3225</item>
+        <item>3033</item>
+        <item>2977</item>
+        <item>2750</item>
+        <item>2530</item>
+        <item>2355</item>
+        <item>2353</item>
+        <item>2532</item>
+        <item>2728</item>
+        <item>1876</item>
+        <item>1748</item>
+        <item>1580</item>
+        <item>1580</item>
+        <item>1700</item>
+        <item>1867</item>
+        <item>2006</item>
+        <item>1887</item>
+        <item>1693</item>
+        <item>1800</item>
+        <item>1589</item>
+        <item>1588</item>
+        <item>1696</item>
+        <item>1887</item>
+        <item>2001</item>
+        <item>2065</item>
+        <item>2267</item>
+        <item>2030</item>
+        <item>2160</item>
+        <item>2288</item>
+        <item>2424</item>
+        <item>2135</item>
+        <item>2196</item>
+        <item>2357</item>
+        <item>2449</item>
+    </string-array>
+
+    <string-array name="posY">
+        <item>2216</item>
+        <item>2381</item>
+        <item>2351</item>
+        <item>2294</item>
+        <item>2069</item>
+        <item>2069</item>
+        <item>2394</item>
+        <item>2565</item>
+        <item>2567</item>
+        <item>2386</item>
+        <item>2181</item>
+        <item>2181</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1906</item>
+        <item>1572</item>
+        <item>1403</item>
+        <item>1400</item>
+        <item>1432</item>
+        <item>1590</item>
+        <item>1409</item>
+        <item>1486</item>
+        <item>1417</item>
+        <item>2405</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2539</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2650</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>2891</item>
+        <item>3058</item>
+        <item>3160</item>
+        <item>3152</item>
+        <item>3000</item>
+        <item>3133</item>
+        <item>2325</item>
+        <item>3104</item>
+        <item>3072</item>
+        <item>3178</item>
+        <item>3173</item>
+        <item>3172</item>
+        <item>2944</item>
+        <item>2824</item>
+        <item>2897</item>
+        <item>2853</item>
+        <item>2714</item>
+        <item>2765</item>
+        <item>2771</item>
+        <item>2688</item>
+        <item>2566</item>
+        <item>1413</item>
+        <item>1265</item>
+        <item>1025</item>
+        <item>499</item>
+        <item>1705</item>
+        <item>200</item>
+        <item>1574</item>
+        <item>1368</item>
+        <item>1441</item>
+        <item>1542</item>
+        <item>1429</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>2017</item>
+        <item>1793</item>
+        <item>1793</item>
+        <item>1793</item>
+        <item>1793</item>
+        <item>2000</item>
+        <item>1905</item>
+        <item>1871</item>
+        <item>1871</item>
+        <item>2102</item>
+        <item>2102</item>
+        <item>2102</item>
+        <item>2102</item>
+        <item>1937</item>
+        <item>1937</item>
+        <item>2601</item>
+        <item>2264</item>
+        <item>2368</item>
+        <item>2487</item>
+        <item>2480</item>
+        <item>2541</item>
+        <item>1971</item>
+        <item>2164</item>
+        <item>2164</item>
+        <item>2096</item>
+        <item>2096</item>
+        <item>2096</item>
+        <item>2096</item>
+        <item>1964</item>
+        <item>1964</item>
+        <item>1964</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>2025</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>1809</item>
+        <item>2337</item>
+        <item>2497</item>
+        <item>2497</item>
+        <item>2497</item>
+        <item>2497</item>
+        <item>2631</item>
+        <item>2631</item>
+        <item>2631</item>
+        <item>2631</item>
+        <item>2092</item>
+        <item>2092</item>
+        <item>2092</item>
+        <item>2092</item>
+        <item>1964</item>
+        <item>1964</item>
+        <item>1964</item>
+        <item>1964</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>2027</item>
+        <item>1811</item>
+        <item>1811</item>
+        <item>1811</item>
+        <item>1811</item>
+        <item>2275</item>
+        <item>2510</item>
+        <item>2510</item>
+        <item>2510</item>
+        <item>2644</item>
+        <item>2644</item>
+        <item>2644</item>
+        <item>1401</item>
+        <item>1401</item>
+        <item>1401</item>
+        <item>1318</item>
+        <item>1318</item>
+        <item>1318</item>
+        <item>1527</item>
+        <item>1685</item>
+        <item>1685</item>
+        <item>1685</item>
+        <item>1685</item>
+        <item>1771</item>
+        <item>1771</item>
+        <item>1771</item>
+        <item>1341</item>
+        <item>1354</item>
+        <item>1354</item>
+        <item>1219</item>
+        <item>1219</item>
+        <item>1219</item>
+        <item>1219</item>
+        <item>1354</item>
+        <item>1354</item>
+        <item>1354</item>
+        <item>1354</item>
+    </string-array>
+
+    <string name="title_activity_busqueda_mapa">BusquedaMapaActivity</string>
+    <string name="title_activity_acerca_de">AcercaDe</string>
+
+</resources>

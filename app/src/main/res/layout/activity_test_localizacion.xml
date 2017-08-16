@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.proyecto.albanbassante.espelapp.TestLocalizacionActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+        <Button android:id="@+id/BotonActivar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Activar" />
+
+        <TextView android:id="@+id/textPosicionActual"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:text="Posicion" />
+
+        <TextView android:id="@+id/latitud"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/md_black_1000"
+            android:layout_margin="15dip"/>
+
+        <TextView android:id="@+id/longitud"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"/>
+
+        <TextView android:id="@+id/textProveedor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"
+            android:text="Proveedor" />
+
+        <TextView android:id="@+id/proveedor"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dip"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
